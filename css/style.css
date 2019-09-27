@@ -1,0 +1,4 @@
+html{font-size:13.3333vw;}
+html,body{height: 100%;}
+html,body{display: flex;flex-direction: column;}
+.header{height:0.44rem;background: #302F35;}
