@@ -1,0 +1,30 @@
+html,body{height: 100%;}
+body{display:flex;flex-direction: column;}
+html{font-size: 13.3333vw;}
+.header1{height: 0.34rem;display: flex;justify-content:space-between;line-height: 0.34rem;}
+.header1 span{font-size: 0.3rem;}
+.header1 p{font-size: 0.22rem;}
+.header1 .left{width: 0.8rem;height: 0.34rem;}
+.header1 .right{width: 1.7rem;height: 0.34rem;}
+.header1 .center{width:1rem;height: 0.34rem;}
+.header2{height: 0.94rem;line-height: 0.94rem;}
+.head2_left{width:0.86rem;height: 0.94rem;float: left;}
+.head2_left span{font-size: 0.4rem;}
+.head2_center{width: 2rem;font-size: 0.33rem;margin-left: 2.1rem;float:left;height: 0.94rem;}
+
+section{flex:1;overflow-y: auto;background:#F2F2F2}
+.zuixin{height:4rem ;background: white;margin-top:0.1rem;overflow: hidden;}
+.zuire{height:16rem ;background: white;margin-top: 0.2rem;}
+.zuixin li:nth-of-type(1){margin-top: 0.01rem;font-size: 0.32rem;line-height: 1rem;text-indent: 0.3rem;border-bottom: 1px solid #D8D8D8;height: 1.2rem;width: 7rem;margin-left: 0.2rem;}
+.zuire li:nth-of-type(1){margin-top: 0.01rem;font-size: 0.32rem;line-height: 1rem;text-indent: 0.3rem;border-bottom: 1px solid #D8D8D8;height: 1.2rem;width: 7rem;margin-left: 0.2rem;}
+.center{float: left;width:6rem;border-bottom: 1px solid #D8D8D8;}
+.zuixin p,.zuire p{margin-top: 0.03rem;width: 4rem;float: left;}
+.zuixin li,.zuire li{margin-top: 0.1rem;height: 1.3rem;}
+.you{width:0.8rem;float: left;height: 1.03rem;margin-top: -0.7rem;margin-left: 1rem;}
+.you img{display: inline-block;margin-left: 0.08rem;}
+.tou{float: left;width: 1rem;margin-left: 0.3rem;}
+
+footer{height: 1rem;background:#FFFFFF;}
+input:nth-of-type(1){border: 0;background: #F9F7F8;width: 5.8rem;height: 0.7rem;font-size: 0.28rem;margin-top: 0.2rem;margin-left: 0.2rem;}
+input:nth-of-type(2){border: 0;background: #F9F7F8;width:1rem;height: 0.7rem;font-size: 0.28rem;}
+

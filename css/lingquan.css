@@ -1,0 +1,34 @@
+html,body{height: 100%;}
+body{display:flex;flex-direction: column;}
+html{font-size: 13.3333vw;}
+.header1{height: 0.34rem;display: flex;justify-content:space-between;line-height: 0.34rem;}
+.header1 span{font-size: 0.3rem;}
+.header1 p{font-size: 0.22rem;}
+.header1 .left{width: 0.8rem;height: 0.34rem;}
+.header1 .right{width: 1.6rem;height: 0.34rem;}
+.header1 .center{width:1rem;height: 0.34rem;}
+
+.header2{height: 0.94rem;line-height: 0.94rem;}
+.head2_left{width:0.86rem;height: 0.94rem;float: left;}
+.head2_left span{font-size: 0.4rem;}
+.head2_center{width: 2rem;font-size: 0.33rem;margin-left: 2.1rem;float:left;height: 0.94rem;}
+
+section{flex:1;overflow-y: auto;background:#F2F2F2}
+.ticket{width: 7rem;height: 2.6rem;margin-left: 0.3rem;margin-top: 0.2rem;}
+.ticket img{float: left;}
+.ticket img:nth-of-type(1){margin-top: 0.1rem;}
+
+.quan{background: url(../images/youhui.png) no-repeat ;width:6.92rem ;height:2.56rem ;background-size: cover;}
+
+.liquan-r{width: 4.2rem;height: 100%;float: right;margin-right: 0.4rem;}
+.liquan-r h1{font-size: 0.28rem;color: #333333;line-height: 1;margin-top: 0.28rem;}
+.liquan-r h2{margin-top: 0.2rem;}
+.liquan-r h2 span{font-size: 0.2rem;color: #000000;line-height: 1;}
+.liquan-r h2 em{color: #030303;font-size: 0.42rem;margin-left: 0.1rem;line-height: 1;}
+.liquan-r h3{font-size: 0.24rem;color: #666666;margin-top: 0.14rem;}
+.lijiling{width:1.34rem;height:0.6rem;background:rgba(253,213,23,1);float:right;font-size:0.24rem;line-height:0.6rem;color:rgba(51,51,51,1);
+text-align: center;margin-top: -0.2rem;}
+.qianggou{width: 100%;margin-top: 0.28rem;position: relative;}
+.jindutiao-wrap{width:1.52rem;height:0.16rem;background:rgba(216,216,216,1);opacity:1;border-radius:0.08rem;overflow: hidden;float: left;margin-top: 0.05rem;}
+.jindutiao{width:10%;background:#FFD900;height:100%;}
+.qianggou span{font-size:0.24rem;color:rgba(102,102,102,1);float: left;margin-left: 0.3rem;line-height: 1;}
