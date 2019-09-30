@@ -1,5 +1,41 @@
 html{font-size:13.3333vw;}
 html,body{height: 100%;}
 html,body{display: flex;flex-direction: column;}
-.header{height:0.44rem;background: #302F35;}
-.con{flex:1;overflow-y:auto;overflow-x: hidden;background: #3D354C;}
+.header{height:1.28rem;}
+.head1{height:0.4rem;display: flex;justify-content: space-between;align-items: center;}
+.head1_left{display: flex;}
+.head1_right{display: flex;}
+
+.head2{height:0.88rem;background: #302F35;display: flex;align-items: center;}
+.head2 span{margin-left: 0.28rem;color:#999999;}
+.head2 p{color:#eeeeee;font-size: 0.34rem;margin-left:2.55rem;}
+.con{flex:1;overflow-y:auto;overflow-x: hidden;position: relative;}
+.profit{height:3.33rem;}
+.con1{position: absolute;left:0;top:0;}
+.profit p{color:#999999;margin-left:3.17rem;line-height: 1.04rem;}
+.profit h3{font-size:0.48rem;font-weight: bold;margin-left: 2.92rem;color:#ffd318;}
+.profit span{display: inline-block;font-size:0.25rem;margin-left: 3rem;line-height: 1.45rem;color:#cbc9ce;}
+.gift{heigth:2.34rem;background: white;overflow: hidden;}
+.gift ul{width:100%;display: flex;heigth:0.72rem;justify-content: space-around;margin-top: 0.8rem;}
+.gift ul li{width:2.3rem;float: left;} 
+.gift ul li:nth-child(2){border-left: solid 1px #CBC9CE;border-right: solid 1px #CBC9CE;}
+.gift ul li img{margin-left:0.76rem;}
+.gift span{font-size:0.38rem;color:#333333;margin-left:0.9rem;display: block;float: left;line-height: 0.8rem;}
+.gift b{font-size:0.38rem;color:#333333;margin-left:1.5rem;display: block;float: left;line-height: 0.8rem;font-weight: normal;}
+.gift i{font-size:0.38rem;color:#333333;margin-left:1.1rem;display: block;float: left;line-height: 0.8rem;font-weight: normal;font-style: normal;}
+.age{height: 6.35rem;background: #f3f3f5;overflow: hidden;}
+.age1{height:6.1rem;background: white;margin-top:0.17rem;}
+.age1>h3{font-size:0.42rem;color:#333333;text-align: center;line-height: 0.84rem;}
+.age1 ul {height: 3.4rem;}
+.age1 ul li img{float:left;}
+.age1 li:nth-child(1) img{margin-left:0.3rem;}
+.age1 li:nth-child(2) img{margin-top:0.6rem;margin-left:0.8rem;}
+.age1_l{width:3.75rem;float:left;}
+.age1_r{width:3.4rem;float:right;}
+.age1_l p{margin-left:0.5rem;color:#333333;font-size: 0.2rem;}
+.age1_r p{margin-left:0.5rem;color:#333333;font-size: 0.2rem;}
+.jin1 p{color:#edaf28;font-size: 0.25rem;line-height: 1rem;font-weight: bold;margin-left:0.5rem;float:left;font-style: normal;}
+.jin1 p:nth-child(2){margin-left: 0;font-size: 0.16rem;font-weight: normal;}
+.jin1 p{color:#edaf28;font-size: 0.25rem;line-height: 1rem;font-weight: bold;margin-left:0.5rem;float:left;font-style: normal;}
+
+

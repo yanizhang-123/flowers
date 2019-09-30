@@ -1,0 +1,30 @@
+html{font-size:13.3333vw;}
+html,body{height: 100%;}
+html,body{display: flex;flex-direction: column;}
+.makeup{height:7.26rem;position: relative;background: url(../images/imgs2/lmt2.png) no-repeat;background-size: cover;}
+.makeup img:nth-child(1){position: absolute;left:0.25rem;top:0.6rem;}
+.makeup1{position: absolute;left:6.6rem;top:0.6rem;}
+.icon-right1{position: absolute;left:0.35rem;top:0.75rem;color:#CBC9CE;}
+.icon-fenxiang{position: absolute;left:6.75rem;top:0.75rem;color:#CBC9CE;}
+/* con */
+.con{flex:1;overflow-y:auto;overflow-x: hidden;}
+.update{height:3.5rem;overflow: hidden;}
+.update h2{font-size: 0.34rem;margin-top:0.43rem;font-weight: bold;}
+.advice{background: #fdd517;height:0.48rem;width:2.33rem;margin-left:0.16rem;margin-top:0.4rem;} 
+.advice p{color:#857d58;font-size: 0.23rem;line-height: 0.48rem;text-align: center;}
+.update span{color:#666666;font-size:0.18rem;margin-top:0.6rem;margin-left:0.16rem;display: block;}
+/* footer */
+.footer{height:2.56rem;border-top: solid 2px #f5f5f5;overflow: hidden;}
+.code{height:0.74rem;padding:0.54rem 0 0 0.24rem;}
+.code_t{height: 0.74rem;}
+.code_t p{font-size: 0.22rem;}
+.time{display: flex;width:3.15rem;justify-content: space-around;}
+.day1,.day2,.day3,.day4{width:0.32rem;height:0.32rem;background: #000000;border-radius: 0.05rem;}
+.code_b{height: 1.26rem;}
+.code_b1{width:4.41rem;float:left;}
+.code_b11{width:0.4rem;height:0.4rem;border-radius: 50%;background: #000000;margin-left:0.4rem;overflow: hidden;}
+.active{width:1.28rem;height:0.48rem;border-right: solid 1px #CBC9CE;float: left;margin-top:0.4rem;}
+.active p{margin-left: 0.4rem;}
+.code_b11 img{margin-top:0.1rem;margin-left:0.07rem;}
+.code_b2{width:3rem;height:0.7rem;border-radius: 0.05rem;float:left;background: gold;display: flex;align-items: center;justify-content: center;margin-top:0.3rem;}
+.air{width:0.4rem;height:0.4rem;background:black url(../images/imgs2/lmt飞机备份.png) no-repeat center;border-radius: 50%;}
