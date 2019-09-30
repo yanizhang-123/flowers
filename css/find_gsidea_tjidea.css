@@ -1,0 +1,26 @@
+html{font-size: 13.33333vw;}
+html,body{height: 100%;}
+body{display:flex;flex-direction: column;}
+
+
+
+
+.head{width: 100%;height:9rem;background: url(../images/pic2.png);display: flex;flex-direction: column;align-items: center;}
+.head .btn {display: flex;justify-content: space-between;margin:0.3rem 0 0.1rem;width: 100%;}
+.head .btn div{width:0.6rem ;height:0.6rem ;background: rgba(0,0,0,1);opacity: 0.5;border-radius: 50%;position: relative;}
+.head .btn div:last-child{margin-right: 0.3rem;}
+.head .btn div:first-child{margin-left: 0.3rem;}
+.head .btn div span{color: white;position: absolute;top: 0.1rem;left: 0.1rem;font-size: 0.4rem;}
+.content .head_pic{height: 1.32rem;border-bottom:1px solid #F2F2F2;display: flex;padding: 0.26rem;align-items: center;}
+.content .head_pic span{font-size: 0.28rem;color: #333333;margin-left: 0.3rem;}
+.content .head_pic span:last-child{margin-left: 3.4rem;}
+.content .detail{height: 1.32rem;border-bottom:1px solid #F2F2F2;padding: 0.26rem;align-items: center;}
+.content .detail h3{color: #333333;font-size: 0.32rem;line-height: 0.44rem;}
+.content .detail p{color: #666666;font-size:0.24rem;line-height: 0.34rem;margin-top: 0.2rem;}
+.content .good{display: flex;height: 0.92rem;border-bottom:1px solid #F2F2F2;padding: 0.4rem 0;}
+.content .good li {display: flex;justify-content: center;align-items: center;width: 33.3%;border-right:#666666 1px solid;}
+.content .good li:nth-of-type(3){border: 0;}
+.content .good li div{width:0.4rem ;height:0.4rem ;border-radius: 50%;background: #000000;opacity: 0.8;position: relative}
+.content .good li div .iconfont{position: absolute;top: 0.05rem;left: 0.05rem;font-size: 0.3rem;color: white;}
+.content .good li div .active{color: #FDD517;}
+.content .good li p{font-size: 0.24rem;margin-left: 0.3rem;}

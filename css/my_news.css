@@ -1,0 +1,21 @@
+html{font-size: 13.33333vw;}
+html,body{height: 100%;}
+body{display:flex;flex-direction: column;}
+
+
+.head{width: 100%;height:1.28rem;background:#fffff;}
+.head .time{height: 0.3rem;}
+.head .title{font-size: 0.3rem;color: #333333;display: flex;margin-top: 0.3rem;align-items: center;}
+.head .title .icon-right1{font-size:0.4rem ;color:#686868;margin-right: 2.4rem;margin-left: 0.2rem;}
+.head .title_bot{margin-bottom: 0.54rem;}
+.head .title_bot span{font-size: 0.28rem;color: #999999;margin-left:0.26rem ;}
+.head .title_bot b{font-size: 0.64rem;color: #FFD318;}
+
+.content{flex: 1;background: white;}
+.content .juan{width: 100%;display: flex;align-items: center;padding: 0.26rem 0.52rem;background: white;border-bottom:1px solid #F2F2F2;
+position: relative;}
+.content .juan img{width: 1.2rem;height: 1.2rem;margin-right: 0.52rem;}
+.content .juan span{font-size:0.5rem ;position: absolute;top:0.6rem ;left:0.86rem ;color: white;}
+.content .juan span img{width: 0.5rem;height: 0.5rem;}
+.content .juan div h2{font-size:0.32rem ;color:#333333 ;margin-bottom: 0.04rem;}
+.content .juan div p{font-size: 0.24rem;color:#666666 ;}
