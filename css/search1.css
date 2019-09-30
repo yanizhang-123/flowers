@@ -1,0 +1,224 @@
+html{
+	height: 100%;
+	font-size: 13.33333333vw;
+}
+body{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+#searchArea {
+	width: 100%;
+	height: 0.58rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 0.18rem;
+	margin-bottom: 0.18rem;	
+}
+
+#searchArea>span {
+	font-size: 0.4rem;
+	color: #898989;
+	opacity: 0.6;	
+}
+
+#search {
+	width: 6.30rem;
+	height: 0.58rem;
+	background: rgba(196, 193, 193, 1);
+	opacity: 0.32;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+}
+#search>span{
+	font-size: 0.28rem;
+	margin: 0 0.16rem;
+	background: rgba(196, 193, 193, 1);
+}
+#search input{
+	font-size: 0.24rem;
+	height: 90%;
+	width: 100%;
+	background:#C4C1C1;
+	border-radius: 10px;
+}
+input{
+	border: none;
+}
+
+#con{
+	flex: 1;
+	background: #f2f2f2;
+	overflow-y: auto;
+}
+#con .ul1{
+	width: 100%;
+	height: 0.88rem;
+	font-size: 0.28rem;
+	background: white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: #666666;
+}
+#con .kk{
+	width: 100%;
+	height: 4.58rem;
+	position: relative;
+}
+.kk .ul2{
+	width: 100%;
+	height: 4.15rem;
+	position: absolute;
+	bottom:0;
+	overflow: hidden;
+} 
+.ul2 .big{
+	overflow: hidden;
+	border-radius: 0.2rem;
+	width: 5.38rem;
+	height: 4.15rem;
+	position: absolute;
+	left: 1.06rem;
+	background: black;
+}
+.ul2 .big img{
+	width: 100%;
+	height: 3.26rem;
+}
+.ul2 .big div{
+	width: 100%;
+	height: 0.88rem;
+	font-size: 0.24rem;
+	line-height: 0.88rem;
+	text-align: center;
+	background: white;
+}
+.ul2 li:nth-child(2){
+	overflow: hidden;
+	border-radius: 0.2rem;
+	width: 4.50rem;
+	height: 3.40rem;
+	position: absolute;
+	left: 6.86rem;
+	background: black;
+	top: 0.42rem;
+}
+.ul2 li:nth-child(2) img{
+	width: 100%;
+	height: 2.68rem;
+}
+.ul2 li:nth-child(2) div{
+	width: 100%;
+	height: 0.72rem;
+	font-size: 0.20rem;
+	line-height: 0.72rem;
+	text-align: center;
+	background: white;
+}
+
+.tj{
+	width: 100%;
+	height: 1.50rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 0 1.94rem;
+}
+.tj span{
+	width: 0.76rem;
+	height: 0.04rem;
+	background: #d8d8d8;
+}
+.tj p{
+	font-size: 0.3rem;
+	font-weight: bold;
+}
+
+.end{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.end>div{
+	position: relative;
+	width: 3.38rem;
+	height: 4.24rem;
+	border-radius: 0.2rem;
+	overflow: hidden;
+}
+.end>div img{
+	width: 3.38rem;
+	height: 3.20rem;
+	background: darkgrey;
+}
+.end>div div{
+	overflow: hidden;
+	width: 3.38rem;
+	height: 1.04rem;
+	background: white;
+}
+.end>div span{
+	width: 0.7rem;
+	height: 0.36rem;
+	background: black;
+	color: white;
+	font-size: 0.18rem;
+	line-height: 0.38rem;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-radius: 0.2rem 0rem 0.2rem 0rem;
+}
+.end>div div h3{
+	font-size: 0.21rem;
+	text-indent: 0.09rem;
+	line-height: 1;
+	margin-top: 0.18rem;
+}
+.end>div div p{
+	font-size: 0.21rem;
+	text-indent: 0.09rem;
+	line-height: 1;
+	margin-top: 0.1rem;
+	color: #666666;
+}
+
+footer{
+	width: 100%;
+	height: 1rem;
+	background: #333;
+}
+footer ul{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+footer ul li{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+footer ul li .iconfont{
+	font-size: 0.4rem;
+	color: #fff;
+}
+footer ul li i{
+	font-style: normal;
+	font-size:0.2rem;
+	font-family:PingFang SC;
+	font-weight:400;
+	line-height:28px;
+	color:rgba(255,255,255,1);
+}
+footer ul li:nth-child(2) span{
+	color: #FFD318;
+}
+footer ul li:nth-child(2) i{
+	color: #FFD318;
+}
