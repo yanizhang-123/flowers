@@ -18,7 +18,7 @@ section{flex:1;overflow-y: auto;background:#F2F2F2}
 .ticket img{float: left;}
 .ticket img:nth-of-type(1){margin-top: 0.1rem;}
 
-.quan{background: url(../images/youhui.png) no-repeat ;width:6.92rem ;height:2.56rem ;background-size: cover;}
+.quan{background: url(../images/lzxyouhui.png) no-repeat ;width:6.92rem ;height:2.56rem ;background-size: cover;}
 
 .liquan-r{width: 4.2rem;height: 100%;float: right;margin-right: 0.4rem;}
 .liquan-r h1{font-size: 0.28rem;color: #333333;line-height: 1;margin-top: 0.28rem;}

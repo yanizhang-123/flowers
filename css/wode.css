@@ -1,7 +1,7 @@
 html,body{height: 100%;}
 body{display:flex;flex-direction: column;}
 html{font-size: 13.3333vw;}
-header{height: 5.1rem;background:url(../images/gg.png) no-repeat ;background-size: cover;}
+header{height: 5.1rem;background:url(../images/lzxgg.png) no-repeat ;background-size: cover;}
 .header1{height: 0.34rem;display: flex;justify-content:space-between;line-height: 0.34rem;}
 .header1 span{font-size: 0.3rem;}
 .header1 p{font-size: 0.22rem;}
