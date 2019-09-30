@@ -11,7 +11,9 @@ html,body{display: flex;flex-direction: column;}
 .head1_left{display: flex;}
 .head1_right{display: flex;}
 
-.header2{height:4.81rem;background: url(../images/imgs3/dtt位图.png) no-repeat;background-size:cover ;overflow: hidden;}
+.header2{height:4.81rem;background: url(../images/imgs3/dtt位图.png) no-repeat;background-size:cover ;overflow: hidden;position: relative;}
+.masking{height: 4.81rem;background: url(../images/imgs3/dtt矩形备份.png);}
+.masking1{position: absolute;left:0;top:0;}
 .circle1{width:0.6rem;height:0.6rem;background:url(../images/imgs3/dtt1.png);border-radius: 50%;float:left;margin-left: 0.26rem;margin-top:0.2rem;}
 .circle1 span{line-height: 0.6rem;margin-left: 0.15rem;color:white;}
 .circle2{width:0.6rem;height:0.6rem;background:url(../images/imgs3/dtt1.png);border-radius: 50%;float:left;margin-left: 5.76rem;margin-top:0.2rem;}
@@ -35,7 +37,7 @@ html,body{display: flex;flex-direction: column;}
 .detail ul {height:1.2rem;width:100%;display: flex;justify-content: space-around;overflow: hidden;}
 .detail li{margin-top:0.74rem;}
 .detail li a{color:white;font-size: 0.25rem;}
-.detail ul li a:hover{font-size: 0.3rem;}
+.detail li:nth-child(1){border-bottom: solid 2px white;}
 
 .con{flex:1;overflow-y:auto;overflow-x: hidden;background: #f3f3f5;}
 
