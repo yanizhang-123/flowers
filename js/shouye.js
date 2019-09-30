@@ -1,0 +1,5 @@
+$(function(){
+	$("#attention").click(function(){
+		
+	})
+})

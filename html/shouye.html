@@ -1,207 +1,250 @@
 <!DOCTYPE html>
 <html lang="zh">
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-	<link rel="stylesheet" href="../css/reset.css" />
-	<link rel="stylesheet" href="../font/iconfont.css" />
-	<link rel="stylesheet" href="../css/shouye.css" />
-	<title>Document</title>
-</head>
-<body>
-	<header class="head">
-		<div class="banner">
-			<!--<img src="../images/juxing.png" />-->
-			<div class="wraphead">
-			<div class="time"><img src="../images/lzxtime.png"/></div>
-			<div class="sreach">
-				<span class="iconfont icon-saoma"></span>
-				<div class="input">
-					<span class="iconfont icon-search"></span>
-					<span>搜索</span>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Document</title>
+		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" href="../font/iconfont.css" />
+		<link rel="stylesheet" href="../css/shouye.css" />
+		<link rel="stylesheet" type="text/css" href="https://3.swiper.com.cn/dist/css/swiper.min.css" />
+		<script src="../js/jquery.js"></script>
+		<script src="../js/shouye.js"></script>
+
+		<style type="text/css">
+			  .swiper-container {
+        width: 5rem;
+        height: 3rem;
+        margin: 20px auto;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+	.swiper-slide img{width: 7rem;height: 3rem;}
+			.lunbo{width: 7rem;height: 3rem;overflow: hidden;display: flex;}
+		</style>
+
+
+	</head>
+	<body>
+
+
+		<header class="head">
+			<div class="banner">
+				<!--<img src="../images/juxing.png" />-->
+				<div class="wraphead">
+					<div class="time"><img src="../images/lzxtime.png" /></div>
+					<div class="sreach">
+						<span class=" twocode  iconfont icon-saoma"></span>
+						<div class="input">
+							<span class="iconfont icon-search"></span>
+							<span>搜索</span>
+						</div>
+						<span class="iconfont icon-xiaoxi"></span>
+
+					</div>
+					<ul class="nav">
+						<li id="attention"><a href="find_guanzhu.html">关注</a></li>
+						<li><a href="#" class="active">推荐</a></li>
+						<li><a href="#">今日值得购买</a></li>
+						<li><a href="#">美妆护肤</a></li>
+						<li><a href="#">母婴用品</a></li>
+					</ul>
+
+
 				</div>
-				<span class="iconfont icon-xiaoxi"></span>
-				
 			</div>
-			<ul class="nav">
-				  <li><a href="#guanzhu">关注</a></li>
-				  <li><a href="#" class="active">推荐</a></li>
-				  <li><a href="#">今日值得购买</a></li>
-				  <li><a href="#">美妆护肤</a></li>
-				  <li><a href="#">母婴用品</a></li>
-			</ul>
-			
-			<!-- <div class="lunbo" id="main">
-		<!-- <div class="nav">
-		   <ul>
-					<li class="select"></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-		   </ul>
-		</div> -->
-		<!-- <div style="width: 100px; height: 100px; background: red; display: none;"></div>
-			</div> -->
-		    </div>
-		</div>
-	</header>
-	<section>
-		<div class="lunbo">
+		</header>
+		<section>
+			<div class="lunbo">
+					<div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="../images/lzxlun.png"></div>
+            <div class="swiper-slide"><img src="../images/lzxlun.png"></div>
+            <div class="swiper-slide"><img src="../images/lzxlun.png"></div>
+          
+        </div>
+    </div>
+
+			</div>
+		
+
+
+
+
 			<ul>
-				<li><a href="#"><img src="../images/lzxlun.png"></a></li>
-				<li><a href="#"><img src="../images/lzxlun.png"></a></li>
-				<li><a href="#"><img src="../images/lzxlun.png"></a></li>
-				<li><a href="#"><img src="../images/lzxlun.png"></a></li>
+				<li>
+					<img src="../images/lzxya.png">
+					<img class="tao" src="../images/lzxk.png">
+					<span><a href="#">任务中心</a></span>
+				</li>
+				<li>
+					<img src="../images/lzxya.png">
+					<img class="tao" src="../images/lzxkk.png">
+					<span><a href="#">领卷中心</a></span>
+				</li>
+				<li>
+					<img src="../images/lzxya.png">
+					<img class="tao" src="../images/lzxkkk.png">
+					<span><a href="#">分享赚金币</a></span>
+				</li>
+				<li>
+					<img src="../images/lzxya.png">
+					<img class="tao" src="../images/lzxkkkk.png">
+					<span><a href="#">玩转AC</a></span>
+				</li>
 			</ul>
-		</div>
-		
-	      <ul>
-			<li>
-				<img src="../images/lzxya.png">
-				<img class="tao" src="../images/lzxk.png">
-				<span><a href="#">任务中心</a></span>
-			</li>
-			<li>
-				<img src="../images/lzxya.png">
-				<img class="tao" src="../images/lzxkk.png">
-				<span><a href="#">领卷中心</a></span>
-			</li>
-			<li>
-				<img src="../images/lzxya.png">
-				<img class="tao" src="../images/lzxkkk.png">
-				<span><a href="#">分享赚金币</a></span>
-			</li>
-			<li>
-				<img src="../images/lzxya.png">
-				<img class="tao" src="../images/lzxkkkk.png">
-				<span><a href="#">玩转AC</a></span>
-			</li>
-		</ul>
-		
-		
-		<div class="ad">
-		     <div class="ad_left">
-		          <h2>今日值得购买</h2>
-		          <p>买到就是赚到&nbsp;&nbsp;限量抢</p>
-		         <div><a class="go" href="#">>>>GO</a></div>
-		          <img src="../images/lzxnaifen.png">
-		     </div>
-		     <div class="ad_right">
-		        <div class="ad_top">
-		             <h2>热门话题互动</h2>
-		             <p>内含福利&nbsp;&nbsp;快来围观</p>
-		             <div><a class="go" href="#">>>>GO</a></div>
-		             <img src="../images/lzxqian.png"/>
-		        </div>
-		        <div class="ad_bot">
-		             <h2>美颜大赏</h2>
-		             <p>超值折扣&nbsp;&nbsp;每日更新</p>
-		             <div><a class="go" href="#">>>>GO</a></div>
-		             <img src="../images/lzxpin.jpg" class="ping"/>
-		        
-		        </div>
-		     
-		     
-		     </div>
-		</div>
-		
-		<div class="youhui" id="guanzhu">
-		   <div>
-		     <div class="yh_top">
-		      <div class="yh_left">
-		         <img src="../images/lzxyou.png">
-		         <span style="color: #333333;font-size: 0.3rem;">优惠</span>
-		      </div>
-		      <div class="yh_right">
-		          <img src="../images/lzx德国备份 2.png" />
-		          <span style="color: #686868;font-size: 0.24rem;">德国 Bodguard Apothke备份</span>
-		      </div>
-		     </div>
-		     <div class="yh_bot">
-		       <div class="yh_bot_left">
-		           <h2>节日专享护肤套盒来啦~49 折bug价,经典玻尿酸保湿套装</h2>
-		           <p>满60欧免邮+下单送5欧元无门槛</p>
-		           <span>精彩彩妆</span>
-		           <i class=" iconfont icon-faxian"></i>
-		           <mark>1890</mark>
-		       </div>
-		       
-		       <div class="yh_bot_right">
-		          <img src="../images/lzxtu.png" />
-		       </div>
-		     </div>
-		   </div>
-		
-		</div>
-		
-		
-		<div class="ad">
-		     <div class="ad_left">
-		          <h2>今日值得购买</h2>
-		          <p>买到就是赚到&nbsp;&nbsp;限量抢</p>
-		         <div><a class="go" href="#">>>>GO</a></div>
-		          <img src="../images/lzxnaifen.png">
-		     </div>
-		     <div class="ad_right">
-		        <div class="ad_top">
-		             <h2>热门话题互动</h2>
-		             <p>内含福利&nbsp;&nbsp;快来围观</p>
-		             <div><a class="go" href="#">>>>GO</a></div>
-		             <img src="../images/lzxqian.png"/>
-		        </div>
-		        <div class="ad_bot">
-		             <h2>美颜大赏</h2>
-		             <p>超值折扣&nbsp;&nbsp;每日更新</p>
-		             <div><a class="go" href="#">>>>GO</a></div>
-		             <img src="../images/lzxpin.jpg" class="ping"/>
-		        
-		        </div>
-		     
-		     
-		     </div>
-		</div>
-		
-		<div class="youhui" id="guanzhu">
-		   <div>
-		     <div class="yh_top">
-		      <div class="yh_left">
-		         <img src="../images/lzxyou.png">
-		         <span style="color: #333333;font-size: 0.3rem;">优惠</span>
-		      </div>
-		      <div class="yh_right">
-		          <img src="../images/lzx德国备份 2.png" />
-		          <span style="color: #686868;font-size: 0.24rem;">德国 Bodguard Apothke备份</span>
-		      </div>
-		     </div>
-		     <div class="yh_bot">
-		       <div class="yh_bot_left">
-		           <h2>节日专享护肤套盒来啦~49 折bug价,经典玻尿酸保湿套装</h2>
-		           <p>满60欧免邮+下单送5欧元无门槛</p>
-		           <span>精彩彩妆</span>
-		           <i class=" iconfont icon-faxian"></i>
-		           <mark>1890</mark>
-		       </div>
-		       
-		       <div class="yh_bot_right">
-		          <img src="../images/lzxtu.png" />
-		       </div>
-		     </div>
-		   </div>
-		
-		</div>
-	</section>
+
+
+			<div class="ad">
+				<div class="ad_left">
+					<h2>今日值得购买</h2>
+					<p>买到就是赚到&nbsp;&nbsp;限量抢</p>
+					<div><a class="go" href="#">>>>GO</a></div>
+					<img src="../images/lzxnaifen.png">
+				</div>
+				<div class="ad_right">
+					<div class="ad_top">
+						<h2>热门话题互动</h2>
+						<p>内含福利&nbsp;&nbsp;快来围观</p>
+						<div><a class="go" href="#">>>>GO</a></div>
+						<img src="../images/lzxqian.png" />
+					</div>
+					<div class="ad_bot">
+						<h2>美颜大赏</h2>
+						<p>超值折扣&nbsp;&nbsp;每日更新</p>
+						<div><a class="go" href="#">>>>GO</a></div>
+						<img src="../images/lzxpin.jpg" class="ping" />
+
+					</div>
+
+
+				</div>
+			</div>
+
+			<div class="youhui" id="guanzhu">
+				<div>
+					<div class="yh_top">
+						<div class="yh_left">
+							<img src="../images/lzxyou.png">
+							<span style="color: #333333;font-size: 0.3rem;">优惠</span>
+						</div>
+						<div class="yh_right">
+							<img src="../images/lzx德国备份 2.png" />
+							<span style="color: #686868;font-size: 0.24rem;">德国 Bodguard Apothke备份</span>
+						</div>
+					</div>
+					<div class="yh_bot">
+						<div class="yh_bot_left">
+							<h2>节日专享护肤套盒来啦~49 折bug价,经典玻尿酸保湿套装</h2>
+							<p>满60欧免邮+下单送5欧元无门槛</p>
+							<span>精彩彩妆</span>
+							<i class=" iconfont icon-faxian"></i>
+							<mark>1890</mark>
+						</div>
+
+						<div class="yh_bot_right">
+							<img src="../images/lzxtu.png" />
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+
+			<div class="ad">
+				<div class="ad_left">
+					<h2>今日值得购买</h2>
+					<p>买到就是赚到&nbsp;&nbsp;限量抢</p>
+					<div><a class="go" href="#">>>>GO</a></div>
+					<img src="../images/lzxnaifen.png">
+				</div>
+				<div class="ad_right">
+					<div class="ad_top">
+						<h2>热门话题互动</h2>
+						<p>内含福利&nbsp;&nbsp;快来围观</p>
+						<div><a class="go" href="#">>>>GO</a></div>
+						<img src="../images/lzxqian.png" />
+					</div>
+					<div class="ad_bot">
+						<h2>美颜大赏</h2>
+						<p>超值折扣&nbsp;&nbsp;每日更新</p>
+						<div><a class="go" href="#">>>>GO</a></div>
+						<img src="../images/lzxpin.jpg" class="ping" />
+
+					</div>
+
+
+				</div>
+			</div>
+
+			<div class="youhui" id="guanzhu">
+				<div>
+					<div class="yh_top">
+						<div class="yh_left">
+							<img src="../images/lzxyou.png">
+							<span style="color: #333333;font-size: 0.3rem;">优惠</span>
+						</div>
+						<div class="yh_right">
+							<img src="../images/lzx德国备份 2.png" />
+							<span style="color: #686868;font-size: 0.24rem;">德国 Bodguard Apothke备份</span>
+						</div>
+					</div>
+					<div class="yh_bot">
+						<div class="yh_bot_left">
+							<h2>节日专享护肤套盒来啦~49 折bug价,经典玻尿酸保湿套装</h2>
+							<p>满60欧免邮+下单送5欧元无门槛</p>
+							<span>精彩彩妆</span>
+							<i class=" iconfont icon-faxian"></i>
+							<mark>1890</mark>
+						</div>
+
+						<div class="yh_bot_right">
+							<img src="../images/lzxtu.png" />
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<footer>
+			<ul class="nav">
+				<li><a href="#"><img src="../images/lzxsho.png">
+						<p style="color: #FFD318;">首页</p>
+					</a></li>
+				<li><a href="#"><img src="../images/lzxzhan.png">
+						<p>站点</p>
+					</a></li>
+				<li class="fa"><a href="#"><img src="../images/lzxfa.png">
+						<p>发现</p>
+					</a></li>
+				<li><a href="#"><img src="../images/lzxwodee.png">
+						<p>我的</p>
+					</a></li>
+			</ul>
+		</footer>
+		<script src="https://3.swiper.com.cn/dist/js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			  var swiper = new Swiper('.swiper-container');
+		</script>
+	</body>
 	
-	<footer>
-		<ul class="nav">
-			<li><a href="#"><img src="../images/lzxsho.png"><p style="color: #FFD318;">首页</p></a></li>
-			<li><a href="#"><img src="../images/lzxzhan.png"><p>站点</p></a></li>
-			<li class="fa"><a href="#"><img src="../images/lzxfa.png"><p>发现</p></a></li>
-			<li><a href="#"><img src="../images/lzxwodee.png"><p>我的</p></a></li>
-		</ul>
-	</footer>
-</body>
-<!--<script type="text/javascript" src="../js/jquery-1.11.0.js" ></script>
-<script type="text/javascript" src="../js/find1.js" ></script>-->
 </html>
